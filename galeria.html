@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galeria</title>
+    <link rel="icon" type="img/ico" href="icona.png">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <script src="menu.js"></script>
+    <script src="gallery.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500&family=K2D:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body class="body">
+    <div id="SideNav" class="menu">
+        <a class="closebtn" onclick="closeMenu()">
+            &times;
+        </a>
+        <a href="index.html">
+            <span>Úvod</span>
+        </a>
+        <a href="osubore.html">
+            <span>O súbore</span>
+        </a>
+        <a href="clenovia.html">
+            <span>Členovia</span>
+        </a>
+        <a href="kontakt.html">
+            <span>Kontakt</span>
+        </a>
+        <a href="galeria.html">
+            <span style="color: white">Galéria</span>
+        </a>
+    </div>
+<div class="heading">
+    <button class="Menu" style="font-size: 30px;width:35px;cursor:pointer" onclick="openMenu()">
+        &#9776;
+    </button>
+    <a href="index.html">
+        <h1 class="heading2">FS Topľan</h1>
+    </a>
+</div>
+
+<div onclick="closeMenu()" id="body2">
+    <div class="container2" >
+        <div class="mySlides fade" style="display:block">
+            <div class="numbertext">1 / 10</div>
+            <div class="text">Fľaškový tanec dievčat</div>
+            <img src="obrazokfstoplan.jpg" alt="Dievčence">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 10</div>
+            <div class="text">Hra</div>
+            <img src="toplanweb-7.jpg" alt="naša Anička">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 10</div>
+            <div class="text">Rusínsky tanec</div>
+            <img src="rusnak.jpg" alt="Dievčata v kroji">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 10</div>
+            <div class="text">Dožinky</div>
+            <img src="dozinky.jpg" alt="Dožinky">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 10</div>
+            <div class="text">Súbory v Albánsku</div>
+            <img src="albania.jpg" alt="Albánsko">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 10</div>
+            <div class="text">Fašiangy</div>
+            <img src="fasiangy.jpg" alt="Fašiangy">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 10</div>
+            <div class="text">Česko</div>
+            <img src="česko.jpg" alt="Súbor v česku">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 10</div>
+            <div class="text">Topľanske slávnosti</div>
+            <img src="toplanskeslavnosti.jpg" alt="Topľanske slávnosti v Giraltovciach">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 10</div>
+            <div class="text">Festival</div>
+            <img src="festival.jpg" alt="Festival v Giraltovciach">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">10 / 10</div>
+            <div class="text">Stará fotka Topľanu</div>
+            <img src="starytoplan.jpg" alt="Stará fotka Topľanu">
+
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+</div>
+<script src="js/main.js">
+</script>
+<footer onclick="closeMenu()">
+    <div class="container">
+        <div class="Kontakty">
+            <div class="KonIcons">
+                <a href="https://www.instagram.com/fs_toplan/" target="_blank">
+                    <div class="tooltip">
+                        <img src="instagram.lnk" alt="fs_toplan" />
+                        <div class="tooltiptext">fs_toplan</div>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/fs.toplan1" target="_blank">
+                    <div class="tooltip">
+                        <img src="facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" alt="fs.toplan1" />
+                        <div class="tooltiptext">fs.toplan1</div>
+                    </div>
+                </a>
+                <a href="toplan@toplan.sk" target=_blank>
+                    <div class="tooltip">
+                        <img src="logo-gmail-png-gmail-icon-download-png-and-vector-1.png" alt="toplan@toplan.sk"/>
+                        <div class="tooltiptext">toplan@toplan.sk</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <p> copyright © 2022 Dávid Tchurik</p>
+</footer>
+</body>
+</html>

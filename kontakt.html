@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontakt</title>
+    <link rel="icon" type="img/ico" href="icona.png">
+    <script src="menu.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500&family=K2D:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="SideNav" class="menu">
+        <a class="closebtn" onclick="closeMenu()">
+            &times;
+        </a>
+        <a href="index.html">
+            <span>Úvod</span>
+        </a>
+        <a href="osubore.html">
+            <span>O súbore</span>
+        </a>
+        <a href="clenovia.html">
+            <span>Členovia</span>
+        </a>
+        <a href="kontakt.html">
+            <span style="color: white">Kontakt</span>
+        </a>
+        <a href="galeria.html">
+            <span>Galéria</span>
+        </a>
+    </div>
+<div class="heading">
+    <button class="Menu" style="font-size: 30px;width:35px;cursor:pointer" onclick="openMenu()">
+        &#9776;
+    </button>
+    <a href="index.html">
+        <h1 class="heading2">FS Topľan</h1>
+    </a>
+</div>
+<div class="body2" id="body2" onclick="closeMenu()">
+    <h3>Napište nám</h3>
+    <form class="container3">
+
+        <div>
+            <p>Meno:</p>
+            <input minlength="5" maxlength="128" type="text" name="meno a priezvisko" placeholder="Meno a priezvisko" required>
+            
+        </div>
+
+        <div>
+            <p>Telefón:</p>
+            <input minlength="7" type="text" name="telefonné číslo" placeholder="telefonné číslo">
+        </div>
+
+        <div>
+            <p>E-mail:</p>
+            <input maxlength="256" type="text" name="e-mail" placeholder="E-mail"  required>
+        </div>
+
+        <p>Zadajte text:</p>
+        <input minlength="5" class="velkyramcek"  required type="text" name="Zadaj správu" placeholder="Zadaj správu">
+    <input type = checkbox>
+        Súhlasim so spracovanim osobných údajov 
+    <div>
+        <input class="odoslat" type = submit >
+    </div>
+    </form> 
+</div>
+<script src="js/main.js">
+</script>
+<footer onclick="closeMenu()">
+    <div class="container">
+        <div class="Kontakty">
+            <div class="KonIcons">
+                <a href="https://www.instagram.com/fs_toplan/" target="_blank">
+                    <div class="tooltip">
+                        <img src="instagram.lnk" alt="fs_toplan"/> 
+                        <div class="tooltiptext">fs_toplan</div>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/fs.toplan1" target="_blank">
+                    <div class="tooltip">
+                        <img src="facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" alt="fs.toplan1"/>
+                        <div class="tooltiptext">fs.toplan1</div>
+                    </div>
+                </a>
+                <a href="toplan@toplan.sk" target=_blank>
+                    <div class="tooltip">
+                        <img src="logo-gmail-png-gmail-icon-download-png-and-vector-1.png" alt="toplan@toplan.sk"/>
+                        <div class="tooltiptext">toplan@toplan.sk</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <p> copyright © 2022 Dávid Tchurik</p>
+</footer>
+</body>
+</html>
